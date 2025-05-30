@@ -1,0 +1,12 @@
+class ApplicationController < ActionController::Base
+  # Only allow modern browsers supporting webp images, web push, badges, import maps, CSS nesting, and CSS :has.
+  allow_browser versions: :modern
+
+  def hello
+    render html: "Hello, world!"
+  end
+
+  def car
+    render html: "Hello, car"
+  end
+end
