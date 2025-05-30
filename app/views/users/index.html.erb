@@ -9,6 +9,8 @@
     <%= render user %>
     <p>
       <%= link_to "Show this user", user %>
+      <%= link_to "Destroy", user, method: :delete, data: { confirm: "Are you sure?" } %>
+
     </p>
   <% end %>
 </div>
