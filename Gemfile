@@ -61,3 +61,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+group :production do
+  gem "pg", "~> 1.5" # Use PostgreSQL as the database for Active Record in production
+end
