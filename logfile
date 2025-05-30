@@ -1,0 +1,8 @@
+2025-05-30 15:04:39.365 JST [54465] LOG:  starting PostgreSQL 14.18 (Homebrew) on aarch64-apple-darwin24.4.0, compiled by Apple clang version 17.0.0 (clang-1700.0.13.3), 64-bit
+2025-05-30 15:04:39.366 JST [54465] LOG:  listening on IPv6 address "::1", port 5432
+2025-05-30 15:04:39.366 JST [54465] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-05-30 15:04:39.367 JST [54465] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-05-30 15:04:39.370 JST [54466] LOG:  database system was shut down at 2025-05-30 15:04:28 JST
+2025-05-30 15:04:39.374 JST [54465] LOG:  database system is ready to accept connections
+2025-05-30 15:04:59.608 JST [54928] ERROR:  syntax error at or near "." at character 38
+2025-05-30 15:04:59.608 JST [54928] STATEMENT:  CREATE DATABASE "storage/development"."postgresql" ENCODING = 'utf8' /*application='HelloApp'*/
